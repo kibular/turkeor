@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "tvrk.fart.balls.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
