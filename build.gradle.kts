@@ -64,4 +64,7 @@ tasks {
         options.compilerArgs.add("-Xlint:deprecation")
         options.compilerArgs.add("-Xlint:unchecked")
     }
+    loom {
+        accessWidenerPath.set(file("src/main/resources/turkeor.accesswidener"))
+    }
 }

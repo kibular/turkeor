@@ -2,6 +2,7 @@ package tvrk.fart.balls;
 
 import tvrk.fart.balls.commands.CommandExample;
 import tvrk.fart.balls.hud.HudExample;
+import tvrk.fart.balls.modules.AntiKnockback;
 import tvrk.fart.balls.modules.AutoSwastika;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -24,6 +25,7 @@ public class AddonTemplate extends MeteorAddon {
         LOG.info("Solid, liquid, gas - they all come out my ass");
 
         Modules.get().add(new AutoSwastika());
+        Modules.get().add(new AntiKnockback());
 
         Commands.add(new CommandExample());
 
